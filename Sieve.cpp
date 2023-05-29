@@ -1,7 +1,7 @@
 const int N = 10000000;
 vector<int> lp(N+1);
 vector<int> pr;
-void sieve(int N){ // compute prime factors till N in O(N) 
+void sieve(int N){ // compute prime numbers till N in O(N) 
     for (int i=2; i <= N; ++i) {
         if (lp[i] == 0) {
             lp[i] = i;
