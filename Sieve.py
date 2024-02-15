@@ -1,4 +1,4 @@
-class seive:
+class sieve:
 
     def __init__(self, n=10**7):
         self.n = n
